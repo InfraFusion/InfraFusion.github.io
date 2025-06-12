@@ -2,3 +2,6 @@
 .DS_Store
 .idea/
 
+unused.html
+menu.bk.html
+.gitignore
