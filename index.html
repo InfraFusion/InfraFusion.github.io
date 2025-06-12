@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>Project Title</title>
+  <title>InfraFusion - GenAI for Fusion</title>
   <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" media="screen" rel="stylesheet" type="text/css" />
   <link href="css/frame.css" media="screen" rel="stylesheet" type="text/css" />
@@ -16,7 +16,7 @@
   <script src="js/footer.js"></script>
   <style>
     .menu-index {
-      color: rgb(255, 255, 255) !important;
+      color: rgb(40, 37, 37) !important;
       opacity: 1 !important;
       font-weight: 700 !important;
     }
@@ -28,17 +28,14 @@
   <div class="content-container">
    <!-------------------------------------------------------------------------------------------->
     <!--Start Header-->
-    <div class="banner" style="background: url('img/dummy-background.jpeg') no-repeat center; background-size: cover; height: 300px;"></div>
+    <div class="banner" style="background: url('img/background.webp') no-repeat center; background-size: cover; height: 300px;"></div>
     <div class="banner">
       <div class="banner-table flex-column">
         <div class="flex-row">
           <div class="flex-item flex-column">
-            <h2 class="add-top-margin-small">This is the header area</h2>
+            <h2 class="add-top-margin-small">InfraFusion - Build Foundation Model for Fusion </h2>
             <p class="text">
-              Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel
-              augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget
-              condimentum rhoncus, <a href="javascript:void(0)">sem quam semper libero</a>, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit
-              vel, luctus pulvinar, hendrerit id, lorem.
+              Generative AI in the field of nuclear fusion remains largely uncharted territory. Unlike conventional AI applications, which often focus on internet-related domains, fusion AI operates within a complex physical environment, introducing unique challenges from multiple perspectives. The objects of study—plasma behaviors, magnetic fields, and thermal phenomena—are fundamentally different from the everyday objects typically found in standard AI tasks.
             </p>
           </div>
         </div>
@@ -47,7 +44,31 @@
     <!--End Header-->
     <!-------------------------------------------------------------------------------------------->
   </div>
-  <div class="footer-container"></div>
-</body>
 
+ <div class="content">
+        <div class="flex-row">
+          <div class="flex-item flex-column">
+            <h2 id="text-only">The Goal and the Challenges</h2>
+            <hr>
+            
+            The project seeks to develop the infrastructure necessary for building AI systems tailored to fusion research, leveraging experimental data from W7-X — the world’s largest stellarator. A key initial focus is addressing the unique challenges associated with data in this domain. We will begin by working with infrared-camera video streams as the primary data source, and subsequently expand to incorporate other experimental modalities.
+            </p>
+            One of the central challenges is that fusion experiment data is both limited in volume and often affected by noise, making it insufficient for training large-scale AI models on its own. Additionally, the data is inherently multimodal, spanning video, diagnostic signals, sensor outputs, and more — requiring careful integration to extract meaningful insights. While simulations can be used to supplement real data, there remains a substantial domain gap between simulated and experimental data, which limits the direct transferability of AI models trained purely in simulation.
+            </p>
+            To overcome these challenges, our research will focus on:
+            <ul>
+              <li>Training foundation models on fusion-experiment datasets</li>
+              <li>Data augmentation via physics-based simulations and neural-network techniques</li>
+              <li>Pattern detection and feature analysis in fusion </li>
+            </ul>
+            </p>
+
+            <hr>
+          </div>
+        </div>
+  
+ </div>
+
+</body>
+<div class="footer-container"></div>
 </html>
